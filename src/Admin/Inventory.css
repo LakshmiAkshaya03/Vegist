@@ -1,0 +1,166 @@
+
+.inventory-wrapper {
+  padding: 1rem;
+  min-height: 100vh;
+  background-color: #f9f9f9; /* Optional for contrast */
+}
+
+.inventory-container {
+    padding: 2rem;
+    background-color: #f9f9f9;
+  }
+  
+  .inventory-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .header-buttons button {
+    margin-left: 0.5rem;
+  }
+  
+  .summary-cards {
+    display: flex;
+    margin: 1rem 0;
+    gap: 1rem;
+  }
+  
+  .card {
+    flex: 1;
+    padding: 1rem;
+    background-color: #fff;
+    border-radius: 6px;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.05);
+    font-weight: 600;
+  }
+  
+  .card span {
+    display: block;
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .card.total { border-left: 5px solid #6f42c1; }
+  .card.low { border-left: 5px solid #dc3545; }
+  .card.reserved { border-left: 5px solid #ffc107; }
+  .card.available { border-left: 5px solid #28a745; }
+  
+  .search-bar {
+    margin-bottom: 1rem;
+  }
+  
+  .stock-filter {
+    margin-bottom: 1rem;
+    max-width: 200px;
+  }
+  
+  .inventory-table .mrp {
+    color: #888;
+    font-size: 0.9rem;
+    display: block;
+  }
+  
+  .inventory-table .min {
+    font-size: 0.8rem;
+    color: #999;
+  }
+  @media (max-width: 768px) {
+    .inventory-wrapper {
+      margin-left: 0;
+      padding: 1rem;
+    }
+  }
+  
+  
+  /* export const inventoryData = [
+    {
+      product: "Luxury Lipstick - Crimson",
+      sku: "MKP-LPS-LUX",
+      price: 899,
+      mrp: 999,
+      stock: 0,
+      min: 10,
+      status: "Out of Stock",
+      reserved: 0,
+      available: 0
+    },
+    {
+      product: "Nourishing Shampoo",
+      sku: "HRC-SHP-NRS",
+      price: 449,
+      mrp: 1499,
+      stock: 3,
+      min: 20,
+      status: "Critical Stock",
+      reserved: 2,
+      available: 1
+    },
+    {
+      product: "Hydrating Face Cream",
+      sku: "SKN-CRM-HYD",
+      price: 899,
+      mrp: 999,
+      stock: 8,
+      min: 15,
+      status: "Low Stock",
+      reserved: 3,
+      available: 5
+    },
+    {
+      product: "Designer Sunglasses",
+      sku: "ACC-SNG-DSG",
+      price: 1999,
+      mrp: 2499,
+      stock: 18,
+      min: 10,
+      status: "In Stock",
+      reserved: 1,
+      available: 17
+    },
+    {
+      product: "Signature Perfume",
+      sku: "FRG-PRF-SIG",
+      price: 2599,
+      mrp: 2999,
+      stock: 31,
+      min: 15,
+      status: "In Stock",
+      reserved: 4,
+      available: 27
+    },
+    {
+      product: "Radiance Serum",
+      sku: "SKN-SRM-RAD",
+      price: 1299,
+      mrp: 1499,
+      stock: 42,
+      min: 20,
+      status: "In Stock",
+      reserved: 5,
+      available: 37
+    },
+    {
+      product: "Brightening Face Mask",
+      sku: "SKN-MSK-BRT",
+      price: 249,
+      mrp: 299,
+      stock: 42,
+      min: 20,
+      status: "In Stock",
+      reserved: 0,
+      available: 42
+    },
+    {
+      product: "Silk Scarf - Summer Collection",
+      sku: "ACC-SCF-SLK",
+      price: 1499,
+      mrp: 1699,
+      stock: 65,
+      min: 20,
+      status: "In Stock",
+      reserved: 2,
+      available: 63
+    }
+  ];
+   */

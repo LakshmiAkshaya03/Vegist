@@ -1,0 +1,63 @@
+.bg-light {
+    background-color: #f8f9fa !important;
+  }
+  
+  .navbar-brand img {
+    max-height: 40px;
+  }
+  
+  /* Search bar */
+  form input[type="search"] {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+  }
+  
+  form .btn {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+  }
+  
+  /* Account section */
+  .text-muted small {
+    font-size: 10px;
+  }
+  
+  /* Main navbar links */
+  .navbar-nav .nav-link {
+    font-weight: 500;
+    color: #000;
+    transition: color 0.3s ease;
+  }
+  
+  .navbar-nav .nav-link:hover {
+    color: #28a745;
+  }
+  
+  .badge.bg-danger {
+    font-size: 10px;
+    padding: 2px 6px;
+    border-radius: 10px;
+  }
+  
+  /* Hotline */
+  .hotline {
+    font-weight: bold;
+    color: #ffc107;
+  }
+  .topbar {
+    background-color: #2b2b2b;
+    font-size: 12px;
+  }
+  
+  .badge-cart {
+    position: absolute;
+    top: -8px;
+    right: -8px;
+    background-color: #f58634;
+    color: white;
+    font-size: 10px;
+    border-radius: 50%;
+    padding: 2px 6px;
+  }
+  
+  

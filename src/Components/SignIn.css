@@ -1,0 +1,64 @@
+/* Make background cover the entire screen */
+.signin-container {
+  height: 100vh;
+  width: 100vw;
+  background-image: url('../assets/images/signin.jpeg'); /* replace with your background path */
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Split layout */
+.signin-content {
+  display: flex;
+  width: 90%;
+  max-width: 1200px;
+  background: rgba(255, 255, 255, 0.1); /* Optional: transparent container */
+  backdrop-filter: blur(2px); /* Optional: blur effect */
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+/* Left section */
+.signin-left {
+  flex: 1;
+  padding: 2rem;
+  color: white;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.5); /* dark overlay for readability */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Right section */
+.signin-right {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.95);
+}
+
+/* Form box styling */
+.signin-box {
+  width: 100%;
+  max-width: 400px;
+  padding: 2rem;
+  border-radius: 8px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .signin-content {
+    flex-direction: column;
+  }
+
+  .signin-left,
+  .signin-right {
+    width: 100%;
+  }
+}

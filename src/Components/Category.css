@@ -1,0 +1,106 @@
+
+.category-wrapper {
+    background-color: #f8f9fa;
+    padding: 3rem 0;
+  }
+  
+  .category-title {
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 3rem;
+  }
+  
+  .slider-container {
+    width: 100%; 
+    max-width: 1400px;
+    margin: 0 auto;
+  }
+  
+  
+  .circle-slide {
+    padding: 0 10px;
+    box-sizing: border-box;
+  }
+  
+  .circle-card {
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    overflow: hidden;
+    background-color: #fff;
+    transition: transform 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: auto;
+  }
+  
+  .circle-card:hover {
+    transform: scale(1.05);
+  }
+  
+  .card-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  /* Arrows */
+  .slick-arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 2;
+    font-size: 24px;
+    color: #333;
+    background: #fff;
+    border-radius: 50%;
+    padding: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+  }
+  
+  /* Avoid arrows overlapping */
+.slick-prev, .slick-next {
+  width: 40px;
+  height: 40px;
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Hide default slick arrows */
+.slick-prev::before,
+.slick-next::before {
+  display: none !important;
+}
+
+/* Custom arrow base */
+.custom-arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 10;
+  width: 40px;
+  height: 40px;
+  background-color: white;
+  color: #333;
+  border-radius: 50%;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+/* Position them correctly */
+.slick-prev.custom-arrow {
+  left: -20px;
+}
+
+.slick-next.custom-arrow {
+  right: -20px;
+}
+.custom-arrow span {
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+}

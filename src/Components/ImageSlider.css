@@ -1,0 +1,32 @@
+.slider-wrapper {
+    overflow: hidden;
+    width: 100%;
+  }
+  
+  .slider-track {
+    display: flex;
+    animation: scrollSlider 18s ease-in-out infinite;
+    width: max-content;
+  }
+  
+  .slider-item {
+    flex: 0 0 16.66%;
+    padding: 0 10px;
+    box-sizing: border-box;
+  }
+  
+  @keyframes scrollSlider {
+    0% {
+      transform: translateX(0);
+    }
+    40% {
+      transform: translateX(0);
+    }
+    60% {
+      transform: translateX(-33.33%); 
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+  

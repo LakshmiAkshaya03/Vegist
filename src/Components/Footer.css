@@ -1,0 +1,113 @@
+.footer-wrapper {
+    background-color: #fefcf6;
+    font-family: 'Poppins', sans-serif;
+    color: #000;
+    font-size: 14px;
+    padding-top: 40px;
+    padding-bottom: 0;
+    overflow-x: hidden;
+  }
+  
+  .footer-icon {
+    color: #f5aa1c;
+    margin-bottom: 0.5rem;
+  }
+
+  
+  .footer-logo {
+    max-width: 160px;
+    height: auto;
+  }
+  
+  .footer-contact-col p {
+    margin-bottom: 0.4rem;
+    font-size: 0.9rem;
+    color: #444;
+  }
+  
+  .footer-heading {
+    color: #f5aa1c;
+    font-weight: 600;
+    margin-bottom: 1rem;
+    font-size: 1rem;
+  }
+  
+  .footer-contact-col svg {
+    color: #f5aa1c;
+  }
+  
+  .footer-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .footer-list li {
+    margin-bottom: 0.5rem;
+    font-size: 0.875rem;
+    cursor: pointer;
+    transition: color 0.2s ease;
+    color: #222;
+  }
+  
+  .footer-list li:hover {
+    color: #f5aa1c;
+  }
+  
+  /* Full-width bottom bar (outside Container) */
+  .footer-bottom {
+    background-color: #f5aa1c;
+    width: 100%;
+    padding: 15px 0;
+  }
+  
+  .footer-bottom-inner {
+    width: 100%;
+    max-width: 1320px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  .footer-social-icons svg {
+    font-size: 1.2rem;
+    margin: 0 8px;
+    color: white;
+    cursor: pointer;
+    transition: opacity 0.3s ease;
+  }
+  
+  .footer-social-icons svg:hover {
+    opacity: 0.8;
+  }
+  
+  .footer-payment-icons img {
+    height: 28px;
+    margin-left: 12px;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .footer-wrapper {
+      text-align: center;
+    }
+  
+    .footer-list {
+      max-width: 220px;
+      margin: 0 auto 2rem auto;
+    }
+  
+    .footer-contact-col {
+      margin-bottom: 2rem;
+    }
+  
+    .footer-bottom-inner {
+      flex-direction: column !important;
+      gap: 10px;
+      text-align: center;
+    }
+  
+    .footer-payment-icons {
+      margin-top: 10px;
+    }
+  }
+  

@@ -1,0 +1,46 @@
+.slider-wrapper {
+  width: 100%;
+}
+
+.slider-image {
+  height: auto;
+  object-fit: cover;
+}
+
+.image-banner {
+  position: relative;
+  width: 75%;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+.banner-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  border-radius: 10px;
+}
+
+.image-banner .overlay {
+  position: absolute;
+  top: 60%;
+  left: 10%;
+  transform: translateY(-50%);
+  color: black;
+  padding: 1rem;
+  border-radius: 10px;
+  max-width: 80%;
+  background: none !important;
+}
+
+
+.btn {
+  font-size: 1.1rem;
+  padding: 0.6rem 1.2rem;
+}
+
+.carousel-caption h1,
+.carousel-caption h5 {
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.5);
+}

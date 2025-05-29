@@ -1,0 +1,13 @@
+.deal-banner {
+    color: white;
+    background-blend-mode: overlay;
+  }
+  
+  .time-box {
+    width: 80px;
+  }
+  
+  .btn-warning:hover {
+    background-color: #6c757d; 
+    color: white;
+  }
