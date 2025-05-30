@@ -1,7 +1,7 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
 import {
-  MdDashboard, MdInventory, MdGroup, MdBarChart, MdSettings,
+  MdDashboard, MdInventory, MdGroup, MdBarChart, 
   MdStorage, MdStore, MdPermMedia, MdPriceCheck, MdShoppingCart,
   MdPeopleAlt, MdCampaign, MdSubscriptions, MdSearch, MdAccountBalance,
   MdAssessment, MdSystemUpdateAlt
@@ -38,11 +38,6 @@ const Sidebar = () => {
           </NavLink>
         </li>
 
-        <li className="nav-item">
-          <NavLink className="nav-link text-dark" to="/settings">
-            <MdSettings className="me-2" /> Settings
-          </NavLink>
-        </li>
 
         <li className="nav-item">
           <NavLink className="nav-link text-dark" to="/master-data">
@@ -111,7 +106,7 @@ const Sidebar = () => {
         </li>
 
         <li className="nav-item">
-          <NavLink className="nav-link text-dark" to="/system">
+          <NavLink className="nav-link text-dark" to="/settings">
             <MdSystemUpdateAlt className="me-2" /> System & Settings
           </NavLink>
         </li>

@@ -130,7 +130,7 @@ const Inventory: React.FC = () => {
   );
 
   return (
-    <div className="inventory-wrapper ms-3 p-4">
+    <div className="inventory-wrapper ">
       <div className="mb-4">
         <div className="page-header mb-4">
           <h2 className="fw-bold">Inventory Management</h2>

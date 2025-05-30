@@ -1,8 +1,12 @@
 
 .inventory-wrapper {
+  margin-top: 50px;
   padding: 1rem;
   min-height: 100vh;
   background-color: #f9f9f9; /* Optional for contrast */
+  min-width: 100%;
+  margin-left: 22%;
+
 }
 
 .inventory-container {

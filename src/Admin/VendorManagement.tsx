@@ -29,9 +29,9 @@ const VendorManagement: React.FC = () => {
   };
 
   return (
-    <div className="p-4  ms-4" style={{width:'1100px'}}>
+    <div className="p-4 " style={{width:'1100px',marginLeft:"270px",marginTop:'50px'}}>
       <div className="d-flex justify-content-between align-items-center mb-3">
-        <h4>Vendors</h4>
+        <h4 className='fw-bold'>Vendors</h4>
         <div>
           <Button variant="outline-secondary" className="me-2">Export</Button>
           <Button variant="primary">Filter</Button>

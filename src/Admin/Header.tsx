@@ -1,10 +1,17 @@
 import React from 'react';
 import { FaBell } from 'react-icons/fa';
 
-const HeaderUI: React.FC = () => {
+const Header: React.FC = () => {
   return (
-    <div className="header d-flex justify-content-between align-items-center p-3 border-bottom">
-      <h5 className="m-0 ms-3 me-4">Admin Portal</h5>
+    <div className="header d-flex justify-content-between align-items-center p-3 border-bottom " style={{
+        marginLeft: '160px',
+        height: '64px', 
+        position: 'fixed',
+        top: 0,
+        right: 0,
+        left: '160px', 
+        zIndex: 1000, }}>
+      <h5 className=" me-4">Admin Portal</h5>
       
       {/* Search input field */}
       <div className="flex-1 me-4">
@@ -24,4 +31,4 @@ const HeaderUI: React.FC = () => {
   );
 };
 
-export default HeaderUI;
+export default Header;

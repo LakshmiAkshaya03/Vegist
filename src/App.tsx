@@ -8,12 +8,11 @@ function App() {
   const hideHeaderOnPaths = ['/login'];
   const shouldShowHeader = !hideHeaderOnPaths.includes(location.pathname);
   
- 
-  // const shouldShowSidebar = showSidebarOnPaths.some(path => location.pathname.startsWith(path));
-
+ // const shouldShowSidebar = showSidebarOnPaths.some(path => location.pathname.startsWith(path));
   return (
-      <div className="flex-grow-1 p-3">
-        {shouldShowHeader && <Header />} 
+      // <div className="flex-grow-1 p-3">
+      <div className='ps-5'>
+        {/* {shouldShowHeader && <Header />}  */}
         <Routing />
       </div>
   );

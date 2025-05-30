@@ -14,12 +14,13 @@ import Inventory from '../Admin/Inventory';
 import VendorManagement from '../Admin/VendorManagement';
 import Sidebar from '../Admin/Sidebar';
 import Header from '../Admin/Header';
+import SystemSettings from '../Admin/SystemSettings';
 
 
 const Routing = () => {
   return (
     <>
-      <Routes>
+      {/* <Routes>
         <Route
           path="/"
           element={
@@ -38,17 +39,19 @@ const Routing = () => {
         />
         <Route path="/product/:id" element={<ProductDetails />} />
         <Route path="/login" element={<SignIn />} />
-      </Routes>
+      </Routes> */}
 
       {/* Admin Section */}
       <div className="d-flex">
         <Sidebar />
-        <div className="flex-grow-1">
+        <div className="flex-grow-1 ms-2">
           <Header />
           <div className="w-100">
             <Routes>
               <Route path="/inventory" element={<Inventory />} />
               <Route path="/vendors" element={<VendorManagement />} />
+              <Route path="/settings" element={<SystemSettings />} />
+
               {/* Add more admin routes here */}
             </Routes>
           </div>
