@@ -1,0 +1,150 @@
+.digital-assets {
+    margin-left: 280px;
+    padding-top: 75px;
+    background-color: #f8f9fa;
+    font-family: 'Inter', sans-serif;
+    width: 100%;
+  }
+  
+  .top-bar {
+    gap: 16px;
+  }
+  
+  .search-box {
+    width: 300px;
+    padding: 8px 12px;
+    font-size: 14px;
+  }
+  
+  .custom-tabs .nav-link {
+    font-size: 14px;
+    padding: 10px 16px;
+    color: #495057;
+    border-radius: 6px;
+  }
+  
+  .custom-tabs .nav-link.active {
+    background-color: #e9ecef;
+    font-weight: 500;
+  }
+  
+  .card-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+    gap: 20px;
+  }
+  
+  .asset-card {
+    background: #ffffff;
+    border: 1px solid #dee2e6;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.04);
+    transition: all 0.2s ease-in-out;
+  }
+  
+  .asset-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  }
+  
+  .image-placeholder {
+    height: 150px;
+    background-color: #f1f3f5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #adb5bd;
+    font-size: 14px;
+  }
+  
+  .card-body {
+    padding: 16px;
+  }
+  
+  .card-body .title {
+    font-weight: 600;
+    font-size: 15px;
+    margin-bottom: 6px;
+  }
+  
+  .card-body .meta {
+    font-size: 13px;
+    color: #6c757d;
+  }
+  .key-metrics {
+    display: flex;
+    gap: 24px;
+    margin-bottom: 32px;
+    flex-wrap: wrap;
+  }
+  
+  .metric-card {
+    background-color: #fff;
+    border: 1px solid #dee2e6;
+    border-radius: 12px;
+    padding: 20px;
+    flex: 1;
+    min-width: 200px;
+    position: relative;
+  }
+  
+  .metric-title {
+    font-size: 14px;
+    color: #6c757d;
+    margin-bottom: 6px;
+  }
+  
+  .metric-value {
+    font-size: 24px;
+    font-weight: bold;
+    color: #212529;
+  }
+  
+  .view-link {
+    display: inline-block;
+    margin-top: 6px;
+    font-size: 13px;
+    color: #6f42c1;
+    text-decoration: none;
+  }
+  
+  .view-link:hover {
+    text-decoration: underline;
+  }
+  
+  /* Storage Circle Chart */
+  .storage-visual {
+    margin-top: 8px;
+  }
+  
+  .circular-chart {
+    width: 80px;
+    height: 80px;
+    display: block;
+    margin: auto;
+  }
+  
+  .circle-bg {
+    fill: none;
+    stroke: #e6e6e6;
+    stroke-width: 3.8;
+  }
+  
+  .circle {
+    fill: none;
+    stroke: #6f42c1;
+    stroke-width: 3.8;
+    stroke-linecap: round;
+    transform: rotate(-90deg);
+    transform-origin: center;
+    transition: stroke-dasharray 0.6s ease;
+  }
+  
+  .percentage {
+    fill: #6f42c1;
+    font-size: 10px;
+    text-anchor: middle;
+  }
+  
+  

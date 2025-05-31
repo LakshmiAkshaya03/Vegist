@@ -15,6 +15,7 @@ import VendorManagement from '../Admin/VendorManagement';
 import Sidebar from '../Admin/Sidebar';
 import Header from '../Admin/Header';
 import SystemSettings from '../Admin/SystemSettings';
+import DigitalAssets from '../Admin/Digital';
 
 
 const Routing = () => {
@@ -51,6 +52,8 @@ const Routing = () => {
               <Route path="/inventory" element={<Inventory />} />
               <Route path="/vendors" element={<VendorManagement />} />
               <Route path="/settings" element={<SystemSettings />} />
+              <Route path="/digital-assets" element={< DigitalAssets/>} />
+
 
               {/* Add more admin routes here */}
             </Routes>
